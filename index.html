@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>filter</title>
+    <link rel="stylesheet" href="css/index.css">
+</head>
+<body>
+    <h2>filters</h2>
+    <div class="container">
+
+
+        <!-- imagse -->
+        <div class="image" >
+            <div id="imgbox">
+                    <img id="img">
+                    <canvas id="canvas"></canvas>
+            </div>
+            <div class="upload">
+    <div>
+
+        <label for="upload" id="label">upload</label>
+        <input type="file"   id="upload">        
+    </div>
+
+            </div>
+        </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        <!-- filters -->
+        <div class="filters">
+            <ul>
+                <li>
+                    <label for="">saturate:</label>
+                    <input type="range" id="saturate"  min="0" max="200" value="100">
+                </li>
+                <li>
+                    <label for="">contrast:</label>
+                    <input type="range" id="contrast" min="0" max="200" value="100" >
+                </li>
+                <li>
+                    <label for="">brightness:</label>
+                    <input type="range" id="brightness" min="0" max="200" value="100">
+                </li>
+                <li>
+                    <label for="">sepia:</label>
+                    <input type="range" id="sepia" min="0" max="200" value="0">
+                </li>
+                <li>
+                    <label for="">Grayscale:</label>
+                    <input type="range" id="grayscale" min="0" max="1" value="0" step="0.1">
+                </li>
+                <li>
+                    <label for="">blur:</label>
+                    <input type="range" id="blur" min="0" max="10" value="0" step="0.1">
+                </li>
+                <li>
+                    <label for="">Hue Rotate:</label>
+                    <input type="range" id="huerotate" min="0" max="350" value="0">
+                </li>
+                <li>
+                    <a download="image" id="download">
+                        download
+                    </a>
+                    <span id="reset"> reset</span>
+                </li>
+            </ul>
+      
+
+        </div>
+    </div>
+    <a href="home.html">back to home</a>
+    <script src="dwonload.js"></script>
+    <!-- <script src="index.js"></script> -->
+</body>
+</html>
